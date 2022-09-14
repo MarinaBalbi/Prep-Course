@@ -28,7 +28,7 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código: 
-  return str 
+  return str; 
   
 }
 
@@ -112,17 +112,26 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-   if (num == 0,2,4,6,8) {
-    return true;
-  }
-  return false; }
+   for(var i = 0; i = num; i++) {
+    if(i%2===0) {
+      console.log(i);
+        return true;
+    }
+        return false; }
+}
+    
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  
-}
+  for(var i=1; i=num; i++) {
+    if(i%2===1) {
+      console.log(i);
+      return true;
+    }
+    return false; }
+ }
 
 function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
